@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 3005;
 
 // a. / → Mensaje de bienvenida al sistema.
 app.get('/', (req, res) => {
-    res.json({ message: '¡Bienvenido al Sistema de Gestión Académica!' });
+    res.json({ message: '¡Bienvenido al Sistema de Gestión Académija' });
 });
 
 // b. /aprendices → Mensaje descriptivo sobre la gestión de aprendices.
@@ -18,6 +18,6 @@ app.get('/programas', (req, res) => {
 });
 
 // 4. Configurar el servidor en el puerto 3000
-app.listen(PORT, () => {
-    console.log(`Servidor de Gestión Académica corriendo en http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor activo en el puerto ${PORT}`);
 });

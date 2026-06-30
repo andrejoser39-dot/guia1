@@ -18,4 +18,25 @@ con la funcion node app.js empieza a trabajar el servidor
 <img width="1847" height="75" alt="image" src="https://github.com/user-attachments/assets/148a2025-195b-44f7-81ce-afa433a78bf8" />
 
 ## vemos el servidor en ejecucion 
+<<<<<<< HEAD
 <img width="1277" height="676" alt="image" src="https://github.com/user-attachments/assets/0fc4e405-b88d-4263-9dbc-f9332347b1d8" />
+=======
+![alt text](image.png)
+
+## Respuestas breves:
+¿Qué componente se encarga de recibir la petición HTTP y dirigirla al controlador?
+El Enrutador (Router).
+
+¿Qué componente se encarga de comunicarse con la base de datos?
+El Modelo (Model).
+
+¿Qué componente envía finalmente la respuesta HTTP al cliente?
+El Controlador (Controller) a través del objeto de respuesta
+
+## PETICION 	CODIGO ESPERADO
+
+GET (200)	        La consulta fue exitosa y devuelve los datos.
+POST (201)	        El recurso se creó con éxito en el servidor.
+DELETE (200-204)	El recurso se eliminó correctamente (204 si no devuelve cuerpo).
+PUT (200-204)	    El recurso se actualizó por completo con éxito.
+>>>>>>> 0bfd410 (actulaizacion del ignore agregamos json)

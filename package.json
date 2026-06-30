@@ -1,16 +1,27 @@
 {
   "name": "guia1",
   "version": "1.0.0",
-  "description": "",
+  "description": "empiezo crear una carpeta de guia \r luego verifico que se tenga una version del nodde para empezar a trabajar en el entorno\r se crea el archivo json\r agrego una carpeta node modules y luego la agrego en un archivo gitignore",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejoser39-dot/guia1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrejoser39-dot/guia1/issues"
+  },
+  "homepage": "https://github.com/andrejoser39-dot/guia1#readme"
 }
