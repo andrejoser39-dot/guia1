@@ -5,7 +5,7 @@ const router = express.Router();
 const pqrsController = require('../controladores');
 
 // Las rutas se quedan exactamente igual, pero ahora vienen de archivos separados
-router.get('/', pqrsController.bienvenida);
+router.get('/bienvenida', pqrsController.bienvenida);
 router.get('/aprendices', pqrsController.gestionarAprendices);
 router.get('/programas', pqrsController.consultarProgramas);
 
